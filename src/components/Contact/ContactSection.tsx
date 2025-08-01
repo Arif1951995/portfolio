@@ -1,5 +1,5 @@
 import { MsgIcon, PhoneIcon } from '@/utils/icons'
-import ContactForm from './ContactForm'
+// import ContactForm from './ContactForm'
 
 const ContactSection = () => {
   return (
@@ -30,7 +30,7 @@ const ContactSection = () => {
         </div>
       </div>
 
-      <ContactForm />
+      {/* <ContactForm /> */}
     </section>
   )
 }

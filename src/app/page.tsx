@@ -1,5 +1,4 @@
 import { skillList } from '@/appData'
-import ContactSection from '@/components/Contact/ContactSection'
 import Hero from '@/components/Hero/Hero'
 import ProjectSection from '@/components/Projects/ProjectSection'
 import ServiceSection from '@/components/Services/ServiceSection'
@@ -19,7 +18,6 @@ export default async function Home() {
         <ProjectSection projects={projects} />
         <ServiceSection />
         <TestimonialSection testimonials={testimonials} />
-        <ContactSection />
       </div>
     </main>
   )
